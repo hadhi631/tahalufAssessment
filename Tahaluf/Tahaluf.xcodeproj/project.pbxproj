@@ -24,6 +24,18 @@
 		080436FE2BE356920091377E /* TableViewDataSourceAdaptable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080436FC2BE356920091377E /* TableViewDataSourceAdaptable.swift */; };
 		080437012BE356C80091377E /* CellDisplayable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080436FF2BE356C80091377E /* CellDisplayable.swift */; };
 		080437022BE356C80091377E /* CellAdaptable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080437002BE356C80091377E /* CellAdaptable.swift */; };
+		080437062BE35EFA0091377E /* UniversityTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080437042BE35EFA0091377E /* UniversityTableCell.swift */; };
+		080437072BE35EFA0091377E /* UniversityTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 080437052BE35EFA0091377E /* UniversityTableCell.xib */; };
+		080437102BE35F610091377E /* UniversityListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080437092BE35F610091377E /* UniversityListPresenter.swift */; };
+		080437112BE35F610091377E /* UniversityListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0804370B2BE35F610091377E /* UniversityListInteractor.swift */; };
+		080437122BE35F610091377E /* University.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0804370D2BE35F610091377E /* University.swift */; };
+		080437132BE35F610091377E /* UniversityListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0804370F2BE35F610091377E /* UniversityListRouter.swift */; };
+		080437152BE35FB80091377E /* BasePresenterAdaptable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080437142BE35FB80091377E /* BasePresenterAdaptable.swift */; };
+		080437182BE363700091377E /* University+ListDisplayable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080437172BE363700091377E /* University+ListDisplayable.swift */; };
+		0804371A2BE36F170091377E /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080437192BE36F170091377E /* AppConstants.swift */; };
+		0804371D2BE371A80091377E /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0804371C2BE371A80091377E /* BaseViewController.swift */; };
+		0804371F2BE3800F0091377E /* TFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0804371E2BE3800F0091377E /* TFError.swift */; };
+		080437222BE392150091377E /* DispatchQueue+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080437212BE392150091377E /* DispatchQueue+Utils.swift */; };
 		134706C50C3DC658287A65A2 /* Pods_Tahaluf_TahalufUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B83FF694FBAAB9274D94552E /* Pods_Tahaluf_TahalufUITests.framework */; };
 		BC2F4EC09953DA3D2920F47F /* Pods_TahalufTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DD70677EB10B93EBA96F879 /* Pods_TahalufTests.framework */; };
 		FBDAAD55083DB8F9F36D0B2D /* Pods_Tahaluf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C06551405F1D27131519425 /* Pods_Tahaluf.framework */; };
@@ -68,6 +80,18 @@
 		080436FC2BE356920091377E /* TableViewDataSourceAdaptable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewDataSourceAdaptable.swift; sourceTree = "<group>"; };
 		080436FF2BE356C80091377E /* CellDisplayable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellDisplayable.swift; sourceTree = "<group>"; };
 		080437002BE356C80091377E /* CellAdaptable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellAdaptable.swift; sourceTree = "<group>"; };
+		080437042BE35EFA0091377E /* UniversityTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UniversityTableCell.swift; sourceTree = "<group>"; };
+		080437052BE35EFA0091377E /* UniversityTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UniversityTableCell.xib; sourceTree = "<group>"; };
+		080437092BE35F610091377E /* UniversityListPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UniversityListPresenter.swift; sourceTree = "<group>"; };
+		0804370B2BE35F610091377E /* UniversityListInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UniversityListInteractor.swift; sourceTree = "<group>"; };
+		0804370D2BE35F610091377E /* University.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = University.swift; sourceTree = "<group>"; };
+		0804370F2BE35F610091377E /* UniversityListRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UniversityListRouter.swift; sourceTree = "<group>"; };
+		080437142BE35FB80091377E /* BasePresenterAdaptable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasePresenterAdaptable.swift; sourceTree = "<group>"; };
+		080437172BE363700091377E /* University+ListDisplayable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "University+ListDisplayable.swift"; sourceTree = "<group>"; };
+		080437192BE36F170091377E /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		0804371C2BE371A80091377E /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		0804371E2BE3800F0091377E /* TFError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TFError.swift; sourceTree = "<group>"; };
+		080437212BE392150091377E /* DispatchQueue+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DispatchQueue+Utils.swift"; sourceTree = "<group>"; };
 		0DD70677EB10B93EBA96F879 /* Pods_TahalufTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TahalufTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2560A95253730CE295FA38C8 /* Pods-TahalufTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TahalufTests.release.xcconfig"; path = "Target Support Files/Pods-TahalufTests/Pods-TahalufTests.release.xcconfig"; sourceTree = "<group>"; };
 		642EB51F46D2DD79F83ADD7B /* Pods-Tahaluf.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tahaluf.release.xcconfig"; path = "Target Support Files/Pods-Tahaluf/Pods-Tahaluf.release.xcconfig"; sourceTree = "<group>"; };
@@ -166,6 +190,7 @@
 				080436B42BE3508A0091377E /* AppDelegate.swift */,
 				080436B62BE3508A0091377E /* SceneDelegate.swift */,
 				080436E52BE354900091377E /* AppRouter.swift */,
+				080437192BE36F170091377E /* AppConstants.swift */,
 			);
 			path = Application;
 			sourceTree = "<group>";
@@ -173,8 +198,11 @@
 		080436E72BE354EF0091377E /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				0804371B2BE3718A0091377E /* Base */,
+				080437162BE3631A0091377E /* EntityDisplayable */,
 				080436FA2BE356920091377E /* Protocols */,
 				080436E82BE354FD0091377E /* Extensions */,
+				0804371E2BE3800F0091377E /* TFError.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -182,6 +210,7 @@
 		080436E82BE354FD0091377E /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				080437202BE391FC0091377E /* Foundation */,
 				080436E92BE355070091377E /* UIKit */,
 			);
 			path = Extensions;
@@ -206,8 +235,12 @@
 		080436ED2BE355A20091377E /* UniversityList */ = {
 			isa = PBXGroup;
 			children = (
-				080436F52BE356180091377E /* Builder */,
 				080436F22BE356180091377E /* View */,
+				0804370A2BE35F610091377E /* Interactor */,
+				080437082BE35F610091377E /* Presenter */,
+				0804370C2BE35F610091377E /* Entity */,
+				0804370E2BE35F610091377E /* Router */,
+				080436F52BE356180091377E /* Builder */,
 			);
 			path = UniversityList;
 			sourceTree = "<group>";
@@ -215,6 +248,7 @@
 		080436F22BE356180091377E /* View */ = {
 			isa = PBXGroup;
 			children = (
+				080437032BE35EFA0091377E /* Cells */,
 				080436F32BE356180091377E /* UniversityListVC.xib */,
 				080436F42BE356180091377E /* UniversityListVC.swift */,
 			);
@@ -236,8 +270,74 @@
 				080436FC2BE356920091377E /* TableViewDataSourceAdaptable.swift */,
 				080436FF2BE356C80091377E /* CellDisplayable.swift */,
 				080437002BE356C80091377E /* CellAdaptable.swift */,
+				080437142BE35FB80091377E /* BasePresenterAdaptable.swift */,
 			);
 			path = Protocols;
+			sourceTree = "<group>";
+		};
+		080437032BE35EFA0091377E /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				080437042BE35EFA0091377E /* UniversityTableCell.swift */,
+				080437052BE35EFA0091377E /* UniversityTableCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		080437082BE35F610091377E /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				080437092BE35F610091377E /* UniversityListPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		0804370A2BE35F610091377E /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				0804370B2BE35F610091377E /* UniversityListInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		0804370C2BE35F610091377E /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				0804370D2BE35F610091377E /* University.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		0804370E2BE35F610091377E /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				0804370F2BE35F610091377E /* UniversityListRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		080437162BE3631A0091377E /* EntityDisplayable */ = {
+			isa = PBXGroup;
+			children = (
+				080437172BE363700091377E /* University+ListDisplayable.swift */,
+			);
+			path = EntityDisplayable;
+			sourceTree = "<group>";
+		};
+		0804371B2BE3718A0091377E /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				0804371C2BE371A80091377E /* BaseViewController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		080437202BE391FC0091377E /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				080437212BE392150091377E /* DispatchQueue+Utils.swift */,
+			);
+			path = Foundation;
 			sourceTree = "<group>";
 		};
 		92DB34E3D43BD3C81AC1FB1D /* Pods */ = {
@@ -373,6 +473,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				080436F72BE356180091377E /* UniversityListVC.xib in Resources */,
+				080437072BE35EFA0091377E /* UniversityTableCell.xib in Resources */,
 				080436C12BE3508D0091377E /* LaunchScreen.storyboard in Resources */,
 				080436BE2BE3508D0091377E /* Assets.xcassets in Resources */,
 				080436BC2BE3508A0091377E /* Main.storyboard in Resources */,
@@ -503,16 +604,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0804371F2BE3800F0091377E /* TFError.swift in Sources */,
+				080437112BE35F610091377E /* UniversityListInteractor.swift in Sources */,
+				0804371A2BE36F170091377E /* AppConstants.swift in Sources */,
 				080436FD2BE356920091377E /* BaseVCDisplayable.swift in Sources */,
 				080436E62BE354900091377E /* AppRouter.swift in Sources */,
+				0804371D2BE371A80091377E /* BaseViewController.swift in Sources */,
+				080437132BE35F610091377E /* UniversityListRouter.swift in Sources */,
+				080437102BE35F610091377E /* UniversityListPresenter.swift in Sources */,
 				080437012BE356C80091377E /* CellDisplayable.swift in Sources */,
 				080436F82BE356180091377E /* UniversityListVC.swift in Sources */,
 				080436F92BE356180091377E /* UniversityListBuilder.swift in Sources */,
+				080437152BE35FB80091377E /* BasePresenterAdaptable.swift in Sources */,
 				080436B52BE3508A0091377E /* AppDelegate.swift in Sources */,
 				080436B72BE3508A0091377E /* SceneDelegate.swift in Sources */,
+				080437222BE392150091377E /* DispatchQueue+Utils.swift in Sources */,
 				080437022BE356C80091377E /* CellAdaptable.swift in Sources */,
 				080436EB2BE355230091377E /* UIResponder+Utils.swift in Sources */,
+				080437062BE35EFA0091377E /* UniversityTableCell.swift in Sources */,
 				080436FE2BE356920091377E /* TableViewDataSourceAdaptable.swift in Sources */,
+				080437122BE35F610091377E /* University.swift in Sources */,
+				080437182BE363700091377E /* University+ListDisplayable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -12,6 +12,14 @@ final class UniversityListBuilder {
     static func create() -> UIViewController {
         let vc = UniversityListVC(nibName: UniversityListVC.identifier, bundle: nil)
         
+        let presenter = UniversityListPresenter()
+        vc.presenter = presenter
+        presenter.view = vc
+        
+        let interactor = UniversityListInteractor()
+        presenter.interactor = interactor
+        interactor.output = presenter
+        
         return vc
     }
 }
