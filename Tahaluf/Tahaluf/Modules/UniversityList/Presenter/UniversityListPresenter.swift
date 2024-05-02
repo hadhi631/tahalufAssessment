@@ -13,12 +13,14 @@ protocol UniversityListPresenterAdaptable: BasePresenterAdaptable {
     
     var view: UniversityListVCDisplayable! { get set }
     var interactor: UniversityListInteractorAdaptable! { get set }
+    var router: UniversityListRouterAdaptable! { get set }
 }
 
 class UniversityListPresenter: UniversityListPresenterAdaptable {
     
     weak var view: UniversityListVCDisplayable!
     var interactor: UniversityListInteractorAdaptable!
+    var router: UniversityListRouterAdaptable!
     
     private var items: [University] = []
     
@@ -47,6 +49,10 @@ extension UniversityListPresenter: TableViewDataSourceAdaptable {
     
     func cellViewModel(at indexPath: IndexPath) -> CellDisplayable? {
         return items[indexPath.row]
+    }
+    
+    func didSelectRow(at indexPath: IndexPath) {
+        router.routeToUniversityDetails(items[indexPath.row])
     }
 }
 

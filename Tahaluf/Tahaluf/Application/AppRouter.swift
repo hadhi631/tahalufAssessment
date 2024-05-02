@@ -9,7 +9,7 @@ import Foundation
 import UIKit
 
 final class AppRouter {
-    var window: UIWindow
+    let window: UIWindow
     
     init(window: UIWindow) {
         self.window = window
@@ -17,7 +17,7 @@ final class AppRouter {
     
     func start() {
         // Set the start module
-        window.rootViewController = UINavigationController(rootViewController: UniversityListBuilder.create())
+        window.rootViewController = UINavigationController(rootViewController: UniversityListBuilder.create(window))
         
         window.makeKeyAndVisible()
     }

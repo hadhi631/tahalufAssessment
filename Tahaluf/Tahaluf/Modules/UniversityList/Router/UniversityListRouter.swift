@@ -6,11 +6,22 @@
 //
 
 import Foundation
+import UIKit
 
-protocol UniversityListRouterAdaptable: AnyObject {
-    
+protocol UniversityListRouterAdaptable: BaseRouterAdaptable {
+    func routeToUniversityDetails(_ entity: University)
 }
 
 class UniversityListRouter: UniversityListRouterAdaptable {
+    private weak var vc: UIViewController!
+    private weak var window: UIWindow!
     
+    required init(vc: UIViewController, window: UIWindow)  {
+        self.vc = vc
+        self.window = window
+    }
+    
+    func routeToUniversityDetails(_ entity: University) {
+        
+    }
 }
