@@ -22,6 +22,7 @@ class UniversityListRouter: UniversityListRouterAdaptable {
     }
     
     func routeToUniversityDetails(_ entity: University) {
-        
+        let nextVC = UniversityDetailsBuilder.create(window, entity: entity)
+        vc.navigationController?.show(nextVC, sender: nil)
     }
 }

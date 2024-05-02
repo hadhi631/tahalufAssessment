@@ -8,3 +8,7 @@
 import Foundation
 
 typealias EmptyClosure = () -> Void
+
+extension Notification.Name {
+    static let reloadUniversityListData = Notification.Name("reload-University-List-Data")
+}
