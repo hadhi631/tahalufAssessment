@@ -43,6 +43,7 @@
 		080437322BE3A0ED0091377E /* UniversityDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080437302BE3A0ED0091377E /* UniversityDetailsVC.swift */; };
 		080437332BE3A0ED0091377E /* UniversityDetailsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 080437312BE3A0ED0091377E /* UniversityDetailsVC.xib */; };
 		080437352BE3A44A0091377E /* University+DetailsDisplayable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080437342BE3A44A0091377E /* University+DetailsDisplayable.swift */; };
+		080437372BE3B0DA0091377E /* Realm+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080437362BE3B0DA0091377E /* Realm+Utils.swift */; };
 		134706C50C3DC658287A65A2 /* Pods_Tahaluf_TahalufUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B83FF694FBAAB9274D94552E /* Pods_Tahaluf_TahalufUITests.framework */; };
 		BC2F4EC09953DA3D2920F47F /* Pods_TahalufTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DD70677EB10B93EBA96F879 /* Pods_TahalufTests.framework */; };
 		FBDAAD55083DB8F9F36D0B2D /* Pods_Tahaluf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C06551405F1D27131519425 /* Pods_Tahaluf.framework */; };
@@ -106,6 +107,7 @@
 		080437302BE3A0ED0091377E /* UniversityDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversityDetailsVC.swift; sourceTree = "<group>"; };
 		080437312BE3A0ED0091377E /* UniversityDetailsVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UniversityDetailsVC.xib; sourceTree = "<group>"; };
 		080437342BE3A44A0091377E /* University+DetailsDisplayable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "University+DetailsDisplayable.swift"; sourceTree = "<group>"; };
+		080437362BE3B0DA0091377E /* Realm+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Realm+Utils.swift"; sourceTree = "<group>"; };
 		0DD70677EB10B93EBA96F879 /* Pods_TahalufTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TahalufTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2560A95253730CE295FA38C8 /* Pods-TahalufTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TahalufTests.release.xcconfig"; path = "Target Support Files/Pods-TahalufTests/Pods-TahalufTests.release.xcconfig"; sourceTree = "<group>"; };
 		642EB51F46D2DD79F83ADD7B /* Pods-Tahaluf.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tahaluf.release.xcconfig"; path = "Target Support Files/Pods-Tahaluf/Pods-Tahaluf.release.xcconfig"; sourceTree = "<group>"; };
@@ -226,6 +228,7 @@
 			children = (
 				080437202BE391FC0091377E /* Foundation */,
 				080436E92BE355070091377E /* UIKit */,
+				080437362BE3B0DA0091377E /* Realm+Utils.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -678,6 +681,7 @@
 				080437102BE35F610091377E /* UniversityListPresenter.swift in Sources */,
 				0804372E2BE3A0AC0091377E /* UniversityDetailsRouter.swift in Sources */,
 				080437012BE356C80091377E /* CellDisplayable.swift in Sources */,
+				080437372BE3B0DA0091377E /* Realm+Utils.swift in Sources */,
 				080436F82BE356180091377E /* UniversityListVC.swift in Sources */,
 				080436F92BE356180091377E /* UniversityListBuilder.swift in Sources */,
 				080437152BE35FB80091377E /* BasePresenterAdaptable.swift in Sources */,

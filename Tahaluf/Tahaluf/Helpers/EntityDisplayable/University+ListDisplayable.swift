@@ -9,7 +9,7 @@ import Foundation
 
 extension University: UniversityTableCellDisplayable {
     var universityName: String {
-        return name
+        return name ?? "No Name"
     }
     
     var universityState: String? {

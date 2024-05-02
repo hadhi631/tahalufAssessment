@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import RealmSwift
 
 protocol UniversityListInteractorOutputAdaptable: AnyObject {
     func didFinishFetchingUniversities(_ data: [University]?, error: TFError?)
@@ -49,11 +50,73 @@ class UniversityListInteractor: UniversityListInteractorAdaptable {
             
             do {
                 let items = try JSONDecoder().decode([University].self, from: data)
-                welf.output.didFinishFetchingUniversities(items, error: nil)
+                
+                if items.isEmpty { // Get saved list
+                    welf.getAllSavedUniversities() { savedItems in
+                        welf.output.didFinishFetchingUniversities(savedItems, error: nil)
+                    }
+                } else { // Clear and re-save the list
+                    welf.clearAllUniversityData() {
+                        welf.saveUniversities(items) {
+                            welf.output.didFinishFetchingUniversities(items, error: nil)
+                        }
+                    }
+                }
             }
             catch {
                 welf.output.didFinishFetchingUniversities(nil, error: APIError.parsingError)
             }
         }.resume()
+    }
+}
+
+extension UniversityListInteractor {
+    private func clearAllUniversityData(_ completion: @escaping EmptyClosure) {
+        DispatchQueue.dispatchMainIfNeeded {
+            guard let realm = try? Realm() else {
+                completion()
+                return
+            }
+            
+            do {
+                try realm.write {
+                    realm.delete(realm.objects(University.self))
+                }
+            } catch {
+                
+            }
+            
+            completion()
+        }
+    }
+    
+    private func saveUniversities(_ items: [Object], completion: @escaping EmptyClosure) {
+        DispatchQueue.dispatchMainIfNeeded {
+            guard let realm = try? Realm() else {
+                completion()
+                return
+            }
+            
+            do {
+                try realm.write {
+                    realm.add(items)
+                }
+            } catch {
+                
+            }
+            
+            completion()
+        }
+    }
+    
+    private func getAllSavedUniversities(_ completion: @escaping ([University]?) -> ()) {
+        DispatchQueue.dispatchMainIfNeeded {
+            guard let realm = try? Realm() else {
+                return completion(nil)
+            }
+            
+            let realmResults = realm.objects(University.self)
+            return completion(realmResults.map() { $0 })
+        }
     }
 }
