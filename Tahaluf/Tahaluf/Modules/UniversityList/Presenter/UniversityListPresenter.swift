@@ -70,25 +70,24 @@ extension UniversityListPresenter: UniversityListInteractorOutputAdaptable {
     func didFinishFetchingUniversities(_ data: [University]?, error: TFError?) {
         view.updateHUDState(showProgress: false)
         
+        // If got data, show it
+        if let data {
+            self.items = data
+            if self.items.isEmpty {
+                view.updateEmptyState(isEmpty: true)
+            } else {
+                view.updateEmptyState(isEmpty: false)
+                view.reloadData()
+            }
+        }
+        
+        // If got an error, even if the data shows from DB, show the error too
         if let error {
             view.showAlert(title: error.errorTitle,
                            message: error.errorMessage,
                            destructionTitle: "OK",
                            actionTitle: nil,
                            actionCompletion: nil)
-            return
-        }
-        
-        guard let data else {
-            return
-        }
-        
-        self.items = data
-        if self.items.isEmpty {
-            view.updateEmptyState(isEmpty: true)
-        } else {
-            view.updateEmptyState(isEmpty: false)
-            view.reloadData()
         }
     }
 }

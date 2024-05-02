@@ -26,7 +26,7 @@ class UniversityListInteractor: UniversityListInteractorAdaptable {
     
     func fetchUniversities() {
         guard let url = URL(string: url) else {
-            output.didFinishFetchingUniversities(nil, error: APIError.badUrl)
+            sendBackSavedItems(withError: APIError.badUrl)
             return
         }
         
@@ -34,17 +34,20 @@ class UniversityListInteractor: UniversityListInteractorAdaptable {
             guard let welf = self else { return }
             
             if let error {
-                welf.output.didFinishFetchingUniversities(nil, error: CustomError(title: "Error", message: error.localizedDescription))
+                welf.sendBackSavedItems(withError: CustomError(title: "Error", message: error.localizedDescription))
+                
                 return
             }
             
             guard let response = response as? HTTPURLResponse, 200 ... 299  ~= response.statusCode else {
-                welf.output.didFinishFetchingUniversities(nil, error: APIError.serverFailure)
+                welf.sendBackSavedItems(withError: APIError.serverFailure)
+                
                 return
             }
             
             guard let data else {
-                welf.output.didFinishFetchingUniversities(nil, error: APIError.emptyData)
+                welf.sendBackSavedItems(withError: APIError.emptyData)
+                
                 return
             }
             
@@ -52,9 +55,7 @@ class UniversityListInteractor: UniversityListInteractorAdaptable {
                 let items = try JSONDecoder().decode([University].self, from: data)
                 
                 if items.isEmpty { // Get saved list
-                    welf.getAllSavedUniversities() { savedItems in
-                        welf.output.didFinishFetchingUniversities(savedItems, error: nil)
-                    }
+                    welf.sendBackSavedItems(withError: nil)
                 } else { // Clear and re-save the list
                     welf.clearAllUniversityData() {
                         welf.saveUniversities(items) {
@@ -64,9 +65,15 @@ class UniversityListInteractor: UniversityListInteractorAdaptable {
                 }
             }
             catch {
-                welf.output.didFinishFetchingUniversities(nil, error: APIError.parsingError)
+                welf.sendBackSavedItems(withError: APIError.parsingError)
             }
         }.resume()
+    }
+    
+    private func sendBackSavedItems(withError error: TFError?) {
+        getAllSavedUniversities() { savedItems in
+            self.output.didFinishFetchingUniversities(savedItems, error: error)
+        }
     }
 }
 
