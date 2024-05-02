@@ -1,0 +1,6 @@
+framework module Pods_Tahaluf {
+  umbrella header "Pods-Tahaluf-umbrella.h"
+
+  export *
+  module * { export * }
+}

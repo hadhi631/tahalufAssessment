@@ -1,0 +1,770 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		080436B52BE3508A0091377E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080436B42BE3508A0091377E /* AppDelegate.swift */; };
+		080436B72BE3508A0091377E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080436B62BE3508A0091377E /* SceneDelegate.swift */; };
+		080436B92BE3508A0091377E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080436B82BE3508A0091377E /* ViewController.swift */; };
+		080436BC2BE3508A0091377E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 080436BA2BE3508A0091377E /* Main.storyboard */; };
+		080436BE2BE3508D0091377E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 080436BD2BE3508D0091377E /* Assets.xcassets */; };
+		080436C12BE3508D0091377E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 080436BF2BE3508D0091377E /* LaunchScreen.storyboard */; };
+		080436CC2BE3508D0091377E /* TahalufTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080436CB2BE3508D0091377E /* TahalufTests.swift */; };
+		080436D62BE3508D0091377E /* TahalufUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080436D52BE3508D0091377E /* TahalufUITests.swift */; };
+		080436D82BE3508D0091377E /* TahalufUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080436D72BE3508D0091377E /* TahalufUITestsLaunchTests.swift */; };
+		134706C50C3DC658287A65A2 /* Pods_Tahaluf_TahalufUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B83FF694FBAAB9274D94552E /* Pods_Tahaluf_TahalufUITests.framework */; };
+		BC2F4EC09953DA3D2920F47F /* Pods_TahalufTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DD70677EB10B93EBA96F879 /* Pods_TahalufTests.framework */; };
+		FBDAAD55083DB8F9F36D0B2D /* Pods_Tahaluf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C06551405F1D27131519425 /* Pods_Tahaluf.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		080436C82BE3508D0091377E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 080436A92BE3508A0091377E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 080436B02BE3508A0091377E;
+			remoteInfo = Tahaluf;
+		};
+		080436D22BE3508D0091377E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 080436A92BE3508A0091377E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 080436B02BE3508A0091377E;
+			remoteInfo = Tahaluf;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		080436B12BE3508A0091377E /* Tahaluf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tahaluf.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		080436B42BE3508A0091377E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		080436B62BE3508A0091377E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		080436B82BE3508A0091377E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		080436BB2BE3508A0091377E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		080436BD2BE3508D0091377E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		080436C02BE3508D0091377E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		080436C22BE3508D0091377E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		080436C72BE3508D0091377E /* TahalufTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TahalufTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		080436CB2BE3508D0091377E /* TahalufTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TahalufTests.swift; sourceTree = "<group>"; };
+		080436D12BE3508D0091377E /* TahalufUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TahalufUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		080436D52BE3508D0091377E /* TahalufUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TahalufUITests.swift; sourceTree = "<group>"; };
+		080436D72BE3508D0091377E /* TahalufUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TahalufUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0DD70677EB10B93EBA96F879 /* Pods_TahalufTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TahalufTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2560A95253730CE295FA38C8 /* Pods-TahalufTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TahalufTests.release.xcconfig"; path = "Target Support Files/Pods-TahalufTests/Pods-TahalufTests.release.xcconfig"; sourceTree = "<group>"; };
+		642EB51F46D2DD79F83ADD7B /* Pods-Tahaluf.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tahaluf.release.xcconfig"; path = "Target Support Files/Pods-Tahaluf/Pods-Tahaluf.release.xcconfig"; sourceTree = "<group>"; };
+		773BC0F7B77DB07A2F30A6F4 /* Pods-TahalufTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TahalufTests.debug.xcconfig"; path = "Target Support Files/Pods-TahalufTests/Pods-TahalufTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9B0DB2B30B6BC6FD9BB8D63F /* Pods-Tahaluf-TahalufUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tahaluf-TahalufUITests.debug.xcconfig"; path = "Target Support Files/Pods-Tahaluf-TahalufUITests/Pods-Tahaluf-TahalufUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9C06551405F1D27131519425 /* Pods_Tahaluf.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tahaluf.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A500C9BA922BE12005DB52B2 /* Pods-Tahaluf.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tahaluf.debug.xcconfig"; path = "Target Support Files/Pods-Tahaluf/Pods-Tahaluf.debug.xcconfig"; sourceTree = "<group>"; };
+		B83FF694FBAAB9274D94552E /* Pods_Tahaluf_TahalufUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tahaluf_TahalufUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA562393623B5904B46B2883 /* Pods-Tahaluf-TahalufUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tahaluf-TahalufUITests.release.xcconfig"; path = "Target Support Files/Pods-Tahaluf-TahalufUITests/Pods-Tahaluf-TahalufUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		080436AE2BE3508A0091377E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBDAAD55083DB8F9F36D0B2D /* Pods_Tahaluf.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		080436C42BE3508D0091377E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC2F4EC09953DA3D2920F47F /* Pods_TahalufTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		080436CE2BE3508D0091377E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				134706C50C3DC658287A65A2 /* Pods_Tahaluf_TahalufUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080436A82BE3508A0091377E = {
+			isa = PBXGroup;
+			children = (
+				080436B32BE3508A0091377E /* Tahaluf */,
+				080436CA2BE3508D0091377E /* TahalufTests */,
+				080436D42BE3508D0091377E /* TahalufUITests */,
+				080436B22BE3508A0091377E /* Products */,
+				92DB34E3D43BD3C81AC1FB1D /* Pods */,
+				FBE3EDAA280A1D2F8CE46B27 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		080436B22BE3508A0091377E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				080436B12BE3508A0091377E /* Tahaluf.app */,
+				080436C72BE3508D0091377E /* TahalufTests.xctest */,
+				080436D12BE3508D0091377E /* TahalufUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		080436B32BE3508A0091377E /* Tahaluf */ = {
+			isa = PBXGroup;
+			children = (
+				080436E42BE350CE0091377E /* Application */,
+				080436B82BE3508A0091377E /* ViewController.swift */,
+				080436BA2BE3508A0091377E /* Main.storyboard */,
+				080436BD2BE3508D0091377E /* Assets.xcassets */,
+				080436BF2BE3508D0091377E /* LaunchScreen.storyboard */,
+				080436C22BE3508D0091377E /* Info.plist */,
+			);
+			path = Tahaluf;
+			sourceTree = "<group>";
+		};
+		080436CA2BE3508D0091377E /* TahalufTests */ = {
+			isa = PBXGroup;
+			children = (
+				080436CB2BE3508D0091377E /* TahalufTests.swift */,
+			);
+			path = TahalufTests;
+			sourceTree = "<group>";
+		};
+		080436D42BE3508D0091377E /* TahalufUITests */ = {
+			isa = PBXGroup;
+			children = (
+				080436D52BE3508D0091377E /* TahalufUITests.swift */,
+				080436D72BE3508D0091377E /* TahalufUITestsLaunchTests.swift */,
+			);
+			path = TahalufUITests;
+			sourceTree = "<group>";
+		};
+		080436E42BE350CE0091377E /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				080436B42BE3508A0091377E /* AppDelegate.swift */,
+				080436B62BE3508A0091377E /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		92DB34E3D43BD3C81AC1FB1D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A500C9BA922BE12005DB52B2 /* Pods-Tahaluf.debug.xcconfig */,
+				642EB51F46D2DD79F83ADD7B /* Pods-Tahaluf.release.xcconfig */,
+				9B0DB2B30B6BC6FD9BB8D63F /* Pods-Tahaluf-TahalufUITests.debug.xcconfig */,
+				BA562393623B5904B46B2883 /* Pods-Tahaluf-TahalufUITests.release.xcconfig */,
+				773BC0F7B77DB07A2F30A6F4 /* Pods-TahalufTests.debug.xcconfig */,
+				2560A95253730CE295FA38C8 /* Pods-TahalufTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FBE3EDAA280A1D2F8CE46B27 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9C06551405F1D27131519425 /* Pods_Tahaluf.framework */,
+				B83FF694FBAAB9274D94552E /* Pods_Tahaluf_TahalufUITests.framework */,
+				0DD70677EB10B93EBA96F879 /* Pods_TahalufTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		080436B02BE3508A0091377E /* Tahaluf */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 080436DB2BE3508D0091377E /* Build configuration list for PBXNativeTarget "Tahaluf" */;
+			buildPhases = (
+				C19EAB28E0EA4F15544A3675 /* [CP] Check Pods Manifest.lock */,
+				080436AD2BE3508A0091377E /* Sources */,
+				080436AE2BE3508A0091377E /* Frameworks */,
+				080436AF2BE3508A0091377E /* Resources */,
+				6F83EA975FD61755F7CA9321 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tahaluf;
+			productName = Tahaluf;
+			productReference = 080436B12BE3508A0091377E /* Tahaluf.app */;
+			productType = "com.apple.product-type.application";
+		};
+		080436C62BE3508D0091377E /* TahalufTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 080436DE2BE3508D0091377E /* Build configuration list for PBXNativeTarget "TahalufTests" */;
+			buildPhases = (
+				205B343869A9B29414AC3E62 /* [CP] Check Pods Manifest.lock */,
+				080436C32BE3508D0091377E /* Sources */,
+				080436C42BE3508D0091377E /* Frameworks */,
+				080436C52BE3508D0091377E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				080436C92BE3508D0091377E /* PBXTargetDependency */,
+			);
+			name = TahalufTests;
+			productName = TahalufTests;
+			productReference = 080436C72BE3508D0091377E /* TahalufTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		080436D02BE3508D0091377E /* TahalufUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 080436E12BE3508D0091377E /* Build configuration list for PBXNativeTarget "TahalufUITests" */;
+			buildPhases = (
+				1F360C1A16C3175BD0673312 /* [CP] Check Pods Manifest.lock */,
+				080436CD2BE3508D0091377E /* Sources */,
+				080436CE2BE3508D0091377E /* Frameworks */,
+				080436CF2BE3508D0091377E /* Resources */,
+				22EE930642FDD98EBE85C092 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				080436D32BE3508D0091377E /* PBXTargetDependency */,
+			);
+			name = TahalufUITests;
+			productName = TahalufUITests;
+			productReference = 080436D12BE3508D0091377E /* TahalufUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		080436A92BE3508A0091377E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					080436B02BE3508A0091377E = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					080436C62BE3508D0091377E = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 080436B02BE3508A0091377E;
+					};
+					080436D02BE3508D0091377E = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 080436B02BE3508A0091377E;
+					};
+				};
+			};
+			buildConfigurationList = 080436AC2BE3508A0091377E /* Build configuration list for PBXProject "Tahaluf" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 080436A82BE3508A0091377E;
+			productRefGroup = 080436B22BE3508A0091377E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				080436B02BE3508A0091377E /* Tahaluf */,
+				080436C62BE3508D0091377E /* TahalufTests */,
+				080436D02BE3508D0091377E /* TahalufUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		080436AF2BE3508A0091377E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				080436C12BE3508D0091377E /* LaunchScreen.storyboard in Resources */,
+				080436BE2BE3508D0091377E /* Assets.xcassets in Resources */,
+				080436BC2BE3508A0091377E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		080436C52BE3508D0091377E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		080436CF2BE3508D0091377E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1F360C1A16C3175BD0673312 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tahaluf-TahalufUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		205B343869A9B29414AC3E62 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TahalufTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		22EE930642FDD98EBE85C092 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tahaluf-TahalufUITests/Pods-Tahaluf-TahalufUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tahaluf-TahalufUITests/Pods-Tahaluf-TahalufUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Tahaluf-TahalufUITests/Pods-Tahaluf-TahalufUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F83EA975FD61755F7CA9321 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tahaluf/Pods-Tahaluf-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tahaluf/Pods-Tahaluf-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Tahaluf/Pods-Tahaluf-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C19EAB28E0EA4F15544A3675 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tahaluf-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		080436AD2BE3508A0091377E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				080436B92BE3508A0091377E /* ViewController.swift in Sources */,
+				080436B52BE3508A0091377E /* AppDelegate.swift in Sources */,
+				080436B72BE3508A0091377E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		080436C32BE3508D0091377E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				080436CC2BE3508D0091377E /* TahalufTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		080436CD2BE3508D0091377E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				080436D82BE3508D0091377E /* TahalufUITestsLaunchTests.swift in Sources */,
+				080436D62BE3508D0091377E /* TahalufUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		080436C92BE3508D0091377E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 080436B02BE3508A0091377E /* Tahaluf */;
+			targetProxy = 080436C82BE3508D0091377E /* PBXContainerItemProxy */;
+		};
+		080436D32BE3508D0091377E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 080436B02BE3508A0091377E /* Tahaluf */;
+			targetProxy = 080436D22BE3508D0091377E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		080436BA2BE3508A0091377E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				080436BB2BE3508A0091377E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		080436BF2BE3508D0091377E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				080436C02BE3508D0091377E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		080436D92BE3508D0091377E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		080436DA2BE3508D0091377E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		080436DC2BE3508D0091377E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A500C9BA922BE12005DB52B2 /* Pods-Tahaluf.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Tahaluf/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hadhi.Tahaluf;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		080436DD2BE3508D0091377E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 642EB51F46D2DD79F83ADD7B /* Pods-Tahaluf.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Tahaluf/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hadhi.Tahaluf;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		080436DF2BE3508D0091377E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 773BC0F7B77DB07A2F30A6F4 /* Pods-TahalufTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hadhi.TahalufTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tahaluf.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Tahaluf";
+			};
+			name = Debug;
+		};
+		080436E02BE3508D0091377E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2560A95253730CE295FA38C8 /* Pods-TahalufTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hadhi.TahalufTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tahaluf.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Tahaluf";
+			};
+			name = Release;
+		};
+		080436E22BE3508D0091377E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B0DB2B30B6BC6FD9BB8D63F /* Pods-Tahaluf-TahalufUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hadhi.TahalufUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Tahaluf;
+			};
+			name = Debug;
+		};
+		080436E32BE3508D0091377E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA562393623B5904B46B2883 /* Pods-Tahaluf-TahalufUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hadhi.TahalufUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Tahaluf;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		080436AC2BE3508A0091377E /* Build configuration list for PBXProject "Tahaluf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				080436D92BE3508D0091377E /* Debug */,
+				080436DA2BE3508D0091377E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		080436DB2BE3508D0091377E /* Build configuration list for PBXNativeTarget "Tahaluf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				080436DC2BE3508D0091377E /* Debug */,
+				080436DD2BE3508D0091377E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		080436DE2BE3508D0091377E /* Build configuration list for PBXNativeTarget "TahalufTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				080436DF2BE3508D0091377E /* Debug */,
+				080436E02BE3508D0091377E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		080436E12BE3508D0091377E /* Build configuration list for PBXNativeTarget "TahalufUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				080436E22BE3508D0091377E /* Debug */,
+				080436E32BE3508D0091377E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 080436A92BE3508A0091377E /* Project object */;
+}
