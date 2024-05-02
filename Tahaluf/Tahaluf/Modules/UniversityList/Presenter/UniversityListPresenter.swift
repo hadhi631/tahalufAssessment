@@ -23,6 +23,7 @@ class UniversityListPresenter: UniversityListPresenterAdaptable {
     var router: UniversityListRouterAdaptable!
     
     private var items: [University] = []
+    private var isDirty: Bool = false
     
     var dataSource: TableViewDataSourceAdaptable {
         return self
@@ -35,10 +36,19 @@ class UniversityListPresenter: UniversityListPresenterAdaptable {
     func viewDidLoad() {
         view.updateHUDState(showProgress: true)
         interactor.fetchUniversities()
+        
+        NotificationCenter.default.addObserver(forName: .reloadUniversityListData, object: nil, queue: nil) { notif in
+            self.isDirty = true
+        }
     }
     
     func viewWillAppear() {
-        
+        if isDirty {
+            isDirty = false
+            
+            view.updateHUDState(showProgress: true)
+            interactor.fetchUniversities()
+        }
     }
 }
 
